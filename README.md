@@ -1,17 +1,17 @@
 # 關於
 
-僅適用於 `彰化縣交通違規檢舉` 部分欄位快速填入的Chrome擴充功能。 如您是位於其他縣市可以參考這篇教學對程式碼進行修改。
+僅適用於 `彰化縣交通違規檢舉` 部分欄位快速填入的Chrome擴充功能。 如您是位於其他縣市可以參考[這篇教學](https://ithelp.ithome.com.tw/articles/10286421)對程式碼進行修改。
 
 
 # 如何使用
 
-### 步驟一，下載
+### 步驟一、下載
 
 在這個頁面的右上角會有一個寫著「CODE的綠色的按鈕」，點開裡面有一個「Download Zip」。
 
 下載後請先解壓縮。
 
-### 步驟二，修改範例資料
+### 步驟二、修改範例資料
 
 打開專案中的 `content-script.js`，並將 `data` 裡的範例資料替換成你的個人資料。
 
@@ -25,7 +25,7 @@ const data = {
 }
 ```
 
-## 步驟三，上傳寫好的擴充功能
+### 步驟三、上傳寫好的擴充功能
 
 在瀏覽器的網址列輸入 `chrome://extensions/` 就能開啟擴充功能的頁面
 
@@ -35,6 +35,6 @@ const data = {
 
 ![https://ithelp.ithome.com.tw/upload/images/20220806/20111805XaFCiAYd7W.png](https://ithelp.ithome.com.tw/upload/images/20220806/20111805XaFCiAYd7W.png)
 
-## 完成
+### 完成
 
 接著回到檢舉表單填寫的網頁，資料應該都會自動填入了！
