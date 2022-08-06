@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "自動填入test",
+  "version": "1.0",
+  "description": "簡短描述你的專案",
+  "content_scripts": [
+    {
+      "matches": ["https://traffic.chpb.gov.tw/ViolatePetition/C005400/Form"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
